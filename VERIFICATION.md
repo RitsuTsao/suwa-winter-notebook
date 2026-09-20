@@ -85,3 +85,11 @@ Screenshots, raw test reports, and pre-change ZIP backups are held in the local 
 - Verified: real local RSS refresh returns three dated items. Historical annual/event/source/coverage/climate/candidate/story datasets remain byte-identical to 0.3.1.
 - Reviewed: Public repository visibility and GitHub Actions as the Pages source are confirmed in GitHub settings. Ritsu explicitly authorized making source, research, and documents public and completed GitHub identity verification.
 - Deployment and a workflow run are not claimed by these local checks; live results will be recorded separately. The first future daily scheduled invocation remains unobserved until it actually occurs.
+
+## Live beta deployment — 2026-09-20
+
+- Verified: [initial workflow run 35503990540](https://github.com/RitsuTsao/suwa-winter-notebook/actions/runs/35503990540) completed build and deployment successfully for `97f0e9d6684c7d9f1862e8dab8ffd24cbfdebb26`. The actual runner performed the RSS refresh successfully.
+- Verified: the public HTTPS website loads at https://ritsutsao.github.io/suwa-winter-notebook/ and displays Beta 0.4.0-beta.1 plus Ritsu/AI credits. Its news JSON returned `ready`, three items, and a successful retrieval timestamp of 2026-09-20T10:03:37Z.
+- Verified: the historical browser suite passed against the real Pages URL at desktop 1440×1100 and mobile 360×800 touch emulation, with no JavaScript errors or unexpected failed HTTP responses. News displayed its published timestamp and static-site reload control in the browser.
+- Verified: the workflow API reports `active`; the committed schedule is daily at 22:17 UTC. This verifies configuration, not a future scheduled execution. The first daily invocation has not yet been observed; no external watchdog is installed.
+- Public hosting and the workflow do not change the historical evidence limits or the untested physical-device/Safari/accessibility boundaries above.
