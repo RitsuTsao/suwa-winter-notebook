@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>諏訪・冬日採集</title>
+  <meta name="description" content="在諏訪湖畔，翻閱冬季紀錄，挪動幾晚的停留。御神渡的歷史觀測冊。">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23E6F0F6'/%3E%3Cpath d='M8 34h16l8-13 8 13h16M8 43h48' fill='none' stroke='%23243E5A' stroke-width='3'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="data.js"></script><script defer src="core.js"></script><script defer src="charts.js"></script><script defer src="news-data.js"></script><script defer src="news.js"></script><script defer src="app.js"></script>
+</head>
+<body>
+<a class="skip" href="#stay">跳到住宿探索</a>
+<header class="site-header"><div class="masthead wrap">
+  <a class="brand" href="#"><span class="brand-title">諏訪・冬日採集</span><span class="eyebrow">湖畔的冬季觀測冊</span></a>
+  <nav aria-label="主要導覽"><a href="#stay" data-section="stay"><small>01</small> 停留探索</a><a href="#notes-section" data-section="notes-section"><small>02</small> 觀測筆記</a><a href="#archive" id="archive-link" data-section="archive"><small>03</small> 冬季紀錄</a><a href="#stories" id="stories-link" data-section="stories"><small>04</small> 湖邊小知識</a></nav>
+</div></header>
+<main>
+  <section class="lake-section" aria-labelledby="winter-heading">
+    <div class="winter-heading wrap">
+      <div class="year-picker"><button class="round" id="prev-year" aria-label="上一個冬季">‹</button><h1 id="winter-heading"><span id="year-title">2018</span><span class="winter-suffix"> 年的冬天</span></h1><button class="round" id="next-year" aria-label="下一個冬季">›</button></div>
+      <p id="winter-status" class="winter-status" aria-live="polite"></p>
+      <button class="quiet-button random" id="random-year">隨機翻一年 <span aria-hidden="true">↝</span></button>
+      <span class="random-note">從有紀錄年份抽選</span>
+    </div>
+    <div class="landscape">
+      <img id="hero-art" class="lake-art" src="assets/hero-occurred.png" alt="晴朗冬日的諏訪湖意象，遠山與城鎮映在冰藍色湖面。">
+      <p class="scene-caption">諏訪湖意象<span>非當年冰況復原</span></p>
+      <button class="companion male" id="male" aria-label="建御名方神創作角色：翻一則觀測小提示"><span class="companion-hint">翻一頁</span></button>
+      <button class="companion female" id="female" aria-label="八坂刀売神創作角色：聽一則湖邊小知識"><span class="companion-hint">歇一下</span></button>
+      <p class="companion-message" id="companion-message" role="status" hidden></p>
+    </div>
+    <div class="scene-actions wrap"><span id="scene-note" class="fine"></span><button id="show-legend" class="quiet-button">看看傳說 ↗</button></div>
+    <div class="year-strip wrap"><span>1877</span><label class="sr-only" for="year-slider">選擇冬季年份</label><input id="year-slider" type="range" min="1877" max="2026" value="2018"><span>2026</span><label class="year-jump">跳至 <select id="year-select" aria-label="直接選擇年份"></select></label></div>
+  </section>
+  <div class="wrap notebook">
+    <section class="explore-grid">
+      <div class="stay" id="stay">
+        <span class="section-number">01 / 停留</span><h2>如果那年住幾晚</h2>
+        <div class="stay-form">
+          <label>抵達日期<span class="date-controls"><select id="month" aria-label="抵達月份"><option value="12">12 月</option><option value="1">1 月</option><option value="2" selected>2 月</option><option value="3">3 月</option></select><select id="day" aria-label="抵達日期"></select></span></label>
+          <label>住幾晚<select id="nights" aria-label="住宿晚數"><option value="2">住 2 晚</option><option value="3">住 3 晚</option><option value="4" selected>住 4 晚</option><option value="5">住 5 晚</option><option value="6">住 6 晚</option><option value="7">住 7 晚</option></select></label>
+        </div>
+        <p id="date-error" class="error" role="alert" hidden></p>
+        <div id="calendar-area">
+          <div class="calendar-heading"><button class="round small" id="prev-day" aria-label="提前一天">‹</button><p id="stay-range"></p><button class="round small" id="next-day" aria-label="延後一天">›</button></div>
+          <div class="calendar" id="calendar" aria-label="停留日期；點選日期或拖曳選取區段調整抵達日"></div>
+          <p class="calendar-help">拖曳藍色區段，或點選日期移動停留。</p>
+          <label class="winter-date-label" for="arrival-slider">整個冬季 <span>12 月 → 3 月</span></label><input id="arrival-slider" type="range" aria-label="在整個冬季中移動抵達日">
+          <div id="stay-result" class="stay-result" aria-live="polite"></div>
+          <p class="fine">抵達與離開當日都列入，未指定時刻。這是與歷史記載的日期對照，不是看見御神渡的機率。</p>
+        </div>
+      </div>
+      <section class="notes" id="notes-section" aria-labelledby="notes-heading"><span class="section-number">02 / 記錄</span><h2 id="notes-heading">翻開觀測筆記</h2><p id="year-summary" class="year-summary"></p><div id="event-preview"></div><details id="year-notes"><summary>這個冬季的筆記與來源 <span>＋</span></summary><div id="notes-content"></div></details></section>
+    </section>
+    <details class="chapter" id="archive"><summary><span><span class="section-number">03 / 回望</span><span class="chapter-title">一百五十個冬季</span></span><span class="chapter-hint">翻開歷史總覽 ＋</span></summary><div class="chapter-body">
+      <figure class="reading-vignette"><img src="assets/vignette-reading.png" alt="兩位湖畔角色一起展開觀測紙卷" loading="lazy"><figcaption>把找到的記錄攤開，也為還不知道的冬季留一個位置。</figcaption></figure><p id="coverage-intro"></p><p class="legend"><span class="legend-item occurred">有出現紀錄</span><span class="legend-item not_observed">未觀察到</span><span class="legend-item unknown">尚無可核實紀錄</span><span class="legend-item disputed" id="annual-dispute-legend">年度有無歧異</span><span class="legend-item date-dispute">橘色角標：日期有歧異</span></p>
+      <div id="year-grid" class="year-grid" aria-label="1877 至 2026 年逐年紀錄"></div>
+      <p class="fine">每格一個冬季，點選可翻閱。年份以冬季結束所在年標示，例如 2018 指 2017–2018 年冬季。</p>
+      <div class="stats-controls"><label>統計範圍<select id="stats-period"><option value="all">1877–2026 · 全部</option><option value="recent">1997–2026 · 近 30 年</option></select></label><p id="stats-summary"></p></div>
+      <div class="chart-block"><h3>二十年中的出現比例</h3><p class="fine">每個點是連續 20 個冬季。可判定不足 16 年不畫比例；下方仍保留每個年份的資料覆蓋標記。最前 19 年尚未組成完整視窗。</p><div id="rolling-chart" class="chart"></div><details class="chart-table"><summary>查看每個視窗的分子、分母與覆蓋</summary><div class="table-scroll"><table><thead><tr><th>冬季範圍</th><th>出現 / 可判定</th><th>完整冬季數</th><th>比例</th></tr></thead><tbody id="rolling-table"></tbody></table></div></details></div>
+      <div class="chart-block"><h3>御神渡在什麼時候出現</h3><p id="scatter-caption" class="fine"></p><div id="date-chart" class="chart"></div><ul id="date-legend" class="symbol-legend" aria-label="日期圖符號說明"></ul><p class="fine">小螢幕可左右滑動圖表。候選日期稍微錯開以便辨識，不連成期間；狀態列沒有日期意義。縱軸為各冬季實際日序（含閏日）。</p></div>
+      <p class="stat-caution">這是一本依現有史料整理的冬季觀察冊。有些年份記錄完整，有些只留下片段；待核標記表示目前仍不清楚。比例描述已有紀錄，不是下一次旅行的預測。</p>
+      <details class="research-details"><summary>資料覆蓋、研究缺口與下載</summary><div id="coverage-details"></div><button id="export-csv" class="quiet-button">匯出逐年 CSV ↓</button></details>
+    </div></details>
+    <details class="chapter" id="stories"><summary><span><span class="section-number">04 / 湖邊</span><span class="chapter-title">神明、湖與記錄的人</span></span><span class="chapter-hint">讀一則小知識 ＋</span></summary><div class="chapter-body story-layout"><div class="story-tabs" role="tablist" aria-label="湖邊小知識主題"></div><article id="story-content" role="tabpanel"></article></div></details>
+    <footer><p>請從岸邊觀賞，勿踏上湖冰。</p><p>兩位角色為當代創作。湖景為意象；資料與傳說各自標示。</p><span id="edition"></span></footer>
+  </div>
+</main>
+<dialog id="event-dialog"><button id="close-dialog" class="round dialog-close" aria-label="關閉事件">×</button><div id="dialog-content"></div></dialog>
+<noscript>這本觀測冊需要瀏覽器啟用 JavaScript。逐年紀錄也可從隨附的 data 資料夾閱讀。</noscript>
+</body></html>

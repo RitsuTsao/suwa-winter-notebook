@@ -1,0 +1,20 @@
+# Local caches and operating-system metadata
+.DS_Store
+__pycache__/
+*.py[cod]
+# Local test reports, scratch work, and backups
+work/
+playwright-report/
+test-results/
+*.log
+*.zip
+*.bak
+# Local dependencies and environments
+node_modules/
+.venv/
+venv/
+# Credentials and machine-local configuration
+.env
+.env.*
+*.pem
+*.key

@@ -1,0 +1,15 @@
+(function(root,factory){const api=factory();if(typeof module==='object'&&module.exports)module.exports=api;else root.SuwaCore=api;})(typeof globalThis!=='undefined'?globalThis:this,function(){
+  'use strict';
+  const DAY=86400000;
+  function iso(date){return date.toISOString().slice(0,10);}
+  function parse(value){if(!/^\d{4}-\d{2}-\d{2}$/.test(value||''))return null;const d=new Date(value+'T00:00:00Z');return Number.isFinite(+d)&&iso(d)===value?d:null;}
+  function add(value,days){const d=parse(value);if(!d)return null;return iso(new Date(+d+days*DAY));}
+  function winterDate(year,month,day){const y=month===12?year-1:year;const s=`${y}-${String(month).padStart(2,'0')}-${String(day).padStart(2,'0')}`;return parse(s)?s:null;}
+  function span(year,month,day,nights){if(![12,1,2,3].includes(month)||!Number.isInteger(nights)||nights<2||nights>7)return {error:'請選擇冬季月份及 2–7 晚。'};const start=winterDate(year,month,day);if(!start)return {error:`${month===12?year-1:year} 年沒有 ${month} 月 ${day} 日，請調整日期。`};const end=add(start,nights);if(end>`${year}-03-31`)return {error:'離開日期超出 3 月 31 日，請提前抵達或減少晚數。'};return {start,end,nights,days:Array.from({length:nights+1},(_,i)=>add(start,i))};}
+  function relation(event,stay){if(stay.error||!event.date_start||!parse(event.date_start))return 'unknown';if(!['day','range'].includes(event.date_precision))return 'unknown';const end=event.date_end||event.date_start;if(end<stay.start)return 'before';if(event.date_start>stay.end)return 'after';return event.date_start>=stay.start&&end<=stay.end?'during':'overlap';}
+  function summary(winters){const known=winters.filter(w=>['occurred','not_observed'].includes(w.omiwatari_status));const occurred=known.filter(w=>w.omiwatari_status==='occurred').length;return {occurred,known:known.length,total:winters.length,unknown:winters.filter(w=>w.omiwatari_status==='unknown').length,disputed:winters.filter(w=>w.omiwatari_status==='disputed').length,rate:known.length?occurred/known.length:null};}
+  function rolling(winters,size=20,minKnown=16){const byYear=new Map(winters.map(w=>[w.winter_year,w]));const min=Math.min(...byYear.keys()),max=Math.max(...byYear.keys());let out=[];for(let end=min+size-1;end<=max;end++){const slice=Array.from({length:size},(_,i)=>byYear.get(end-size+1+i)||{omiwatari_status:'unknown'});const s=summary(slice);out.push({...s,start:end-size+1,end,visible:s.known>=minKnown});}return out;}
+  function dayIndex(year,date){return Math.round((+parse(date)-+parse(`${year-1}-12-01`))/DAY);}
+  function preciseAppearance(winters,events){const byId=new Map(events.map(e=>[e.id,e]));return winters.filter(w=>w.omiwatari_status==='occurred').flatMap(w=>w.events.map(id=>byId.get(id)).filter(e=>e&&e.event_type==='first_observed'&&e.date_precision==='day'&&parse(e.date_start)&&!e.exclude_from_statistics).slice(0,1).map(e=>({year:w.winter_year,date:e.date_start,day:dayIndex(w.winter_year,e.date_start),event:e})));}
+  return {DAY,iso,parse,add,winterDate,span,relation,summary,rolling,dayIndex,preciseAppearance};
+});

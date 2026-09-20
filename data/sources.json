@@ -1,0 +1,222 @@
+[
+  {
+    "id": "arakawa1954",
+    "title": "5世紀に亘る諏訪湖御神渡の研究・第2表",
+    "organization": "荒川秀俊／地學雜誌",
+    "url": "https://www.jstage.jst.go.jp/article/jgeography1889/63/4/63_4_193/_article/-char/en",
+    "published_date": "1954-12-30",
+    "pages": "196–197（PDF 第4–5頁）",
+    "accessed_date": "2026-09-16",
+    "notes": "逐格視覺轉錄第2表。欄首為冬季起始年；列0〜1對應翌年。星號是拝觀日；あり只有有無，明海／なし記未出現。原表使用西曆與羅馬月份，未自行換算舊曆。"
+  },
+  {
+    "id": "ishiguro2001",
+    "title": "諏訪湖の御神渡り記録に関する気候復元資料としての均質性",
+    "organization": "石黒直子／地理學評論",
+    "url": "https://www.jstage.jst.go.jp/article/grj1984a/74/7/74_7_415/_article",
+    "published_date": "2001",
+    "pages": "415–423",
+    "accessed_date": "2026-09-16",
+    "notes": "不同觀測時期、團體與定義不能視為完全均質。"
+  },
+  {
+    "id": "ishiguro2004",
+    "title": "2003年に起きた諏訪湖の御神渡りについて",
+    "organization": "石黒直子／お茶の水地理44",
+    "url": "https://teapot.lib.ocha.ac.jp/record/35564/files/004404.pdf",
+    "published_date": "2004",
+    "pages": "39、41–42",
+    "accessed_date": "2026-09-16",
+    "notes": "作者現場調查；1990–2003僅1991、1998、2003有公認御神渡。1/11非官方目擊、1/17公認、1/19拝觀分開。"
+  },
+  {
+    "id": "mikami2018",
+    "title": "Omiwatari appeared in this winter!",
+    "organization": "三上岳彦／JCDP",
+    "url": "https://jcdp.jp/omiwatari-appeared-in-this-winter/",
+    "published_date": "2018-02-06",
+    "pages": null,
+    "accessed_date": "2026-09-16",
+    "notes": "網頁另有2/10照片補記，補記日期未標。首次出現2/2；照片目擊2/4與2/10；神事2/5。"
+  },
+  {
+    "id": "jcdp2017",
+    "title": "Omiwatari at Lake Suwa",
+    "organization": "三上岳彦／JCDP",
+    "url": "https://jcdp.jp/omiwatari/",
+    "published_date": "2017-12-27",
+    "pages": null,
+    "accessed_date": "2026-09-16",
+    "notes": "文中照片為作者1998/1/31拍攝。"
+  },
+  {
+    "id": "tourism",
+    "title": "御神渡り",
+    "organization": "諏訪觀光連盟（資料提供：八劔神社、諏訪市博物館）",
+    "url": "https://www.suwa-tourism.jp/archives/000107.php",
+    "published_date": null,
+    "pages": null,
+    "accessed_date": "2026-09-16",
+    "notes": "文化介紹及2018/2/5拝觀神事。"
+  },
+  {
+    "id": "suwa2026",
+    "title": "諏訪湖 御神渡り観測 8季連続の“明けの海”を宣言",
+    "organization": "諏訪觀光協會",
+    "url": "https://www.suwakanko.jp/news/2026/02/06-8季連続の明けの海を宣言/",
+    "published_date": "2026-02-06",
+    "pages": null,
+    "accessed_date": "2026-09-16",
+    "notes": "公告報導宣告發生在2/4；連續8季作為2019–2026回顧依據；明記2026曾全面結冰，並未給結冰日期。當季結論的觀察範圍截至2/4。"
+  },
+  {
+    "id": "nagano",
+    "title": "諏訪湖の御神渡り",
+    "organization": "長野縣諏訪地域振興局",
+    "url": "https://www.pref.nagano.lg.jp/suwachi/suwachi-shokan/kanko/omiwatari.html",
+    "published_date": "2025-12-23",
+    "pages": null,
+    "accessed_date": "2026-09-16",
+    "notes": "2018/2/7職員照片、2023/2/4明けの海宣告；岸邊安全及神事說明。照片未轉載。"
+  },
+  {
+    "id": "shinshu",
+    "title": "御神渡り",
+    "organization": "とっておき信州（地方觀光資訊）",
+    "url": "https://shinshu.net/event/omiwata",
+    "published_date": null,
+    "pages": null,
+    "accessed_date": "2026-09-16",
+    "notes": "補充來源；列1990年後出現年1991、1998、2003、2004、2006、2008、2012、2013、2018。年度有無用於2004–2013；另保留2018年2/1出現異說，與JCDP的2/2並列排除日期統計；仍待逐年原帳核對。"
+  },
+  {
+    "id": "suwa-taisha",
+    "title": "四つの神社",
+    "organization": "諏訪大社",
+    "url": "https://suwataisha.or.jp/about/miyamori/",
+    "published_date": null,
+    "pages": null,
+    "accessed_date": "2026-09-16",
+    "notes": "四社方位及祭神配置。"
+  },
+  {
+    "id": "hasegawa2024",
+    "title": "諏訪湖の結氷・御神渡り記録の出典付データベース",
+    "organization": "長谷川直子、平野淳平、三上岳彦／日本地理學會",
+    "url": "https://www.jstage.jst.go.jp/article/ajg/2024a/0/2024a_28/_article/-char/ja",
+    "published_date": "2024-10-01",
+    "pages": null,
+    "accessed_date": "2026-09-16",
+    "notes": "已讀公開摘要；提到1444–2024資料庫，但頁面無完整電子附錄，未取得逐年表。"
+  },
+  {
+    "id": "figshare2022",
+    "title": "Long-term ice phenology records for 78 lakes in the Northern Hemisphere v4",
+    "organization": "Sharma 等／Figshare",
+    "url": "https://doi.org/10.6084/m9.figshare.19146611.v4",
+    "published_date": "2022",
+    "pages": null,
+    "accessed_date": "2026-09-16",
+    "notes": "metadata已讀，CC BY 4.0；PhenologyData.csv多個官方下載入口本次回403或空檔，未匯入任何資料。不可當作御神渡出現資料。"
+  },
+  {
+    "id": "mikami-graph",
+    "title": "気候変動による諏訪湖「御神渡」発生頻度の激減",
+    "organization": "三上岳彦、平野淳平／日本地理學會",
+    "url": "https://www.jstage.jst.go.jp/article/ajg/2018s/0/2018s_000131/_pdf",
+    "published_date": "2018",
+    "pages": null,
+    "accessed_date": "2026-09-16",
+    "notes": "讀取並視覺查看全文，僅圖形年度記號，未將圖上估讀值填入缺漏年。"
+  },
+  {
+    "id": "jma2018",
+    "title": "諏訪 2018年（月ごとの値）主な要素",
+    "organization": "日本氣象廳",
+    "url": "https://www.data.jma.go.jp/stats/etrn/view/monthly_s1.php?prec_no=48&block_no=47620&year=2018&month=&day=&view=",
+    "published_date": null,
+    "pages": null,
+    "accessed_date": "2026-09-16",
+    "notes": "僅轉錄1、2月月均溫與月內最低氣溫；實測站資料，非湖冰重建。"
+  },
+  {
+    "id": "user2025",
+    "title": "2025年1月諏訪湖旅行照片與說明",
+    "organization": "專案發起者（私人目擊）",
+    "url": null,
+    "published_date": "2025-01",
+    "pages": null,
+    "accessed_date": "2026-09-16",
+    "notes": "專案發起者提供的私人觀察：湖面結冰、沒有御神渡。只記部分湖面目擊，未指定日，也不能推出全面結冰；照片未打包或上傳。年度御神渡判定另據公開來源。"
+  },
+  {
+    "id": "gemini_s_nagano",
+    "title": "長野日報 2014年1月18日号 1面",
+    "organization": "長野日報",
+    "url": null,
+    "published_date": "2014-01-18",
+    "pages": "1面",
+    "accessed_date": "2026-09-20",
+    "notes": "維基所列上游書目；尚未取得版面，不能當已讀原始證據。"
+  },
+  {
+    "id": "gemini_s001",
+    "title": "御神渡り５季ぶり認定 八剱神社が諏訪湖上で拝観式",
+    "organization": "市民新聞",
+    "url": "https://www.shimin.co.jp/archives/2216",
+    "published_date": "2018-02-06",
+    "pages": "web article",
+    "accessed_date": "2026-09-20",
+    "notes": "2018年新聞：2/1觀察確認、2/5神事與認定；沒有解決2/1與2/2歧異。"
+  },
+  {
+    "id": "gemini_s002",
+    "title": "諏訪この１年 2012(H24)",
+    "organization": "市民新聞",
+    "url": "https://www.shimin.co.jp/archives/database/%E8%AB%8F%E8%A8%AA%E3%81%93%E3%81%AE%EF%BC%91%E5%B9%B4-2012h24",
+    "published_date": "2015-12-24",
+    "pages": "web database",
+    "accessed_date": "2026-09-20",
+    "notes": "2012年回顧：2/3兆候、2/4確認御神渡、2/6神事與認定，分開呈現。"
+  },
+  {
+    "id": "gemini_s004",
+    "title": "春めく1日 各地で10度超え 諏訪湖は小波打ち寄せる「明けの海」",
+    "organization": "長野放送 (NBS TV)",
+    "url": "https://www.nbs-tv.co.jp/news/articles/?cid=27030",
+    "published_date": "2026-02-14",
+    "pages": "web article",
+    "accessed_date": "2026-09-20",
+    "notes": "補強2026曾全面結冰；原文表示寒氣未持續，不推論連續三日低溫。"
+  },
+  {
+    "id": "gemini_s005",
+    "title": "気候変動で世界が注目、長野県の諏訪湖で582年目の湖面観察が開始",
+    "organization": "Sustainable Brands",
+    "url": "https://www.sustainablebrands.jp/news/1219456/",
+    "published_date": "2024-01-11",
+    "pages": "web article",
+    "accessed_date": "2026-09-20",
+    "notes": "回顧報導明記1987起連續四年未出現；本次採納1987–1989，保留回顧證據層級。"
+  },
+  {
+    "id": "gemini_s006",
+    "title": "諏訪湖 - 御神渡りの出現年",
+    "organization": "Wikipedia",
+    "url": "https://ja.wikipedia.org/wiki/%E8%AB%8F%E8%A8%AA%E6%B9%96",
+    "published_date": null,
+    "pages": "御神渡りの出現年 section",
+    "accessed_date": "2026-09-20",
+    "notes": "二手年度列舉；31 年只保留待核線索，未列出不等於已證明未出現。"
+  },
+  {
+    "id": "gemini_s007",
+    "title": "諏訪湖の御神渡りの記録です！その仕組みで原理や条件でひび割れ",
+    "organization": "Suwakko.com",
+    "url": "https://suwakko.com/suwako-omiwatari/",
+    "published_date": "2021-01-05",
+    "pages": "web article",
+    "accessed_date": "2026-09-20",
+    "notes": "私人觀光彙整表；2004年1/28只列候選，與信州1/29記述並存。"
+  }
+]

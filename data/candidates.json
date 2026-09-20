@@ -1,0 +1,312 @@
+[
+  {
+    "claim_id": "gemini_c_cand_1955",
+    "winter_year": 1955,
+    "proposed_outcome": "occurred",
+    "review_status": "unresolved",
+    "source_ids": [
+      "gemini_s006"
+    ],
+    "interpretation": "維基百科轉錄的《長野日報》出現年清單有正面列舉此年份（昭和30年），列為出現候選。"
+  },
+  {
+    "claim_id": "gemini_c_cand_1956",
+    "winter_year": 1956,
+    "proposed_outcome": "occurred",
+    "review_status": "unresolved",
+    "source_ids": [
+      "gemini_s006"
+    ],
+    "interpretation": "維基百科轉錄的《長野日報》出現年清單有正面列舉此年份（昭和31年），列為出現候選。"
+  },
+  {
+    "claim_id": "gemini_c_cand_1957",
+    "winter_year": 1957,
+    "proposed_outcome": "occurred",
+    "review_status": "unresolved",
+    "source_ids": [
+      "gemini_s006"
+    ],
+    "interpretation": "維基百科轉錄的《長野日報》出現年清單有正面列舉此年份（昭和32年），列為出現候選。"
+  },
+  {
+    "claim_id": "gemini_c_cand_1958",
+    "winter_year": 1958,
+    "proposed_outcome": "not_observed",
+    "review_status": "unresolved",
+    "source_ids": [
+      "gemini_s006"
+    ],
+    "interpretation": "維基百科轉錄的《長野日報》出現年清單中未列出此年份（昭和33年），作為未出現的待核線索。取得上游資料前不可當作正式結論。"
+  },
+  {
+    "claim_id": "gemini_c_cand_1959",
+    "winter_year": 1959,
+    "proposed_outcome": "occurred",
+    "review_status": "unresolved",
+    "source_ids": [
+      "gemini_s006"
+    ],
+    "interpretation": "維基百科轉錄的《長野日報》出現年清單有正面列舉此年份（昭和34年），列為出現候選。"
+  },
+  {
+    "claim_id": "gemini_c_cand_1960",
+    "winter_year": 1960,
+    "proposed_outcome": "not_observed",
+    "review_status": "unresolved",
+    "source_ids": [
+      "gemini_s006"
+    ],
+    "interpretation": "維基百科轉錄的《長野日報》出現年清單中未列出此年份（昭和35年），作為未出現的待核線索。取得上游資料前不可當作正式結論。"
+  },
+  {
+    "claim_id": "gemini_c_cand_1961",
+    "winter_year": 1961,
+    "proposed_outcome": "occurred",
+    "review_status": "unresolved",
+    "source_ids": [
+      "gemini_s006"
+    ],
+    "interpretation": "維基百科轉錄的《長野日報》出現年清單有正面列舉此年份（昭和36年），列為出現候選。"
+  },
+  {
+    "claim_id": "gemini_c_cand_1962",
+    "winter_year": 1962,
+    "proposed_outcome": "not_observed",
+    "review_status": "unresolved",
+    "source_ids": [
+      "gemini_s006"
+    ],
+    "interpretation": "維基百科轉錄的《長野日報》出現年清單中未列出此年份（昭和37年），作為未出現的待核線索。取得上游資料前不可當作正式結論。"
+  },
+  {
+    "claim_id": "gemini_c_cand_1963",
+    "winter_year": 1963,
+    "proposed_outcome": "occurred",
+    "review_status": "unresolved",
+    "source_ids": [
+      "gemini_s006"
+    ],
+    "interpretation": "維基百科轉錄的《長野日報》出現年清單有正面列舉此年份（昭和38年），列為出現候選。"
+  },
+  {
+    "claim_id": "gemini_c_cand_1964",
+    "winter_year": 1964,
+    "proposed_outcome": "not_observed",
+    "review_status": "unresolved",
+    "source_ids": [
+      "gemini_s006"
+    ],
+    "interpretation": "維基百科轉錄的《長野日報》出現年清單中未列出此年份（昭和39年），作為未出現的待核線索。取得上游資料前不可當作正式結論。"
+  },
+  {
+    "claim_id": "gemini_c_cand_1965",
+    "winter_year": 1965,
+    "proposed_outcome": "occurred",
+    "review_status": "unresolved",
+    "source_ids": [
+      "gemini_s006"
+    ],
+    "interpretation": "維基百科轉錄的《長野日報》出現年清單有正面列舉此年份（昭和40年），列為出現候選。"
+  },
+  {
+    "claim_id": "gemini_c_cand_1966",
+    "winter_year": 1966,
+    "proposed_outcome": "occurred",
+    "review_status": "unresolved",
+    "source_ids": [
+      "gemini_s006"
+    ],
+    "interpretation": "維基百科轉錄的《長野日報》出現年清單有正面列舉此年份（昭和41年），列為出現候選。"
+  },
+  {
+    "claim_id": "gemini_c_cand_1967",
+    "winter_year": 1967,
+    "proposed_outcome": "occurred",
+    "review_status": "unresolved",
+    "source_ids": [
+      "gemini_s006"
+    ],
+    "interpretation": "維基百科轉錄的《長野日報》出現年清單有正面列舉此年份（昭和42年），列為出現候選。"
+  },
+  {
+    "claim_id": "gemini_c_cand_1968",
+    "winter_year": 1968,
+    "proposed_outcome": "occurred",
+    "review_status": "unresolved",
+    "source_ids": [
+      "gemini_s006"
+    ],
+    "interpretation": "維基百科轉錄的《長野日報》出現年清單有正面列舉此年份（昭和43年），列為出現候選。"
+  },
+  {
+    "claim_id": "gemini_c_cand_1969",
+    "winter_year": 1969,
+    "proposed_outcome": "not_observed",
+    "review_status": "unresolved",
+    "source_ids": [
+      "gemini_s006"
+    ],
+    "interpretation": "維基百科轉錄的《長野日報》出現年清單中未列出此年份（昭和44年），作為未出現的待核線索。取得上游資料前不可當作正式結論。"
+  },
+  {
+    "claim_id": "gemini_c_cand_1970",
+    "winter_year": 1970,
+    "proposed_outcome": "occurred",
+    "review_status": "unresolved",
+    "source_ids": [
+      "gemini_s006"
+    ],
+    "interpretation": "維基百科轉錄的《長野日報》出現年清單有正面列舉此年份（昭和45年），列為出現候選。"
+  },
+  {
+    "claim_id": "gemini_c_cand_1971",
+    "winter_year": 1971,
+    "proposed_outcome": "not_observed",
+    "review_status": "unresolved",
+    "source_ids": [
+      "gemini_s006"
+    ],
+    "interpretation": "維基百科轉錄的《長野日報》出現年清單中未列出此年份（昭和46年），作為未出現的待核線索。取得上游資料前不可當作正式結論。"
+  },
+  {
+    "claim_id": "gemini_c_cand_1972",
+    "winter_year": 1972,
+    "proposed_outcome": "not_observed",
+    "review_status": "unresolved",
+    "source_ids": [
+      "gemini_s006"
+    ],
+    "interpretation": "維基百科轉錄的《長野日報》出現年清單中未列出此年份（昭和47年），作為未出現的待核線索。取得上游資料前不可當作正式結論。"
+  },
+  {
+    "claim_id": "gemini_c_cand_1973",
+    "winter_year": 1973,
+    "proposed_outcome": "not_observed",
+    "review_status": "unresolved",
+    "source_ids": [
+      "gemini_s006"
+    ],
+    "interpretation": "維基百科轉錄的《長野日報》出現年清單中未列出此年份（昭和48年），作為未出現的待核線索。取得上游資料前不可當作正式結論。"
+  },
+  {
+    "claim_id": "gemini_c_cand_1974",
+    "winter_year": 1974,
+    "proposed_outcome": "occurred",
+    "review_status": "unresolved",
+    "source_ids": [
+      "gemini_s006"
+    ],
+    "interpretation": "維基百科轉錄的《長野日報》出現年清單有正面列舉此年份（昭和49年），列為出現候選。"
+  },
+  {
+    "claim_id": "gemini_c_cand_1975",
+    "winter_year": 1975,
+    "proposed_outcome": "occurred",
+    "review_status": "unresolved",
+    "source_ids": [
+      "gemini_s006"
+    ],
+    "interpretation": "維基百科轉錄的《長野日報》出現年清單有正面列舉此年份（昭和50年），列為出現候選。"
+  },
+  {
+    "claim_id": "gemini_c_cand_1976",
+    "winter_year": 1976,
+    "proposed_outcome": "occurred",
+    "review_status": "unresolved",
+    "source_ids": [
+      "gemini_s006"
+    ],
+    "interpretation": "維基百科轉錄的《長野日報》出現年清單有正面列舉此年份（昭和51年），列為出現候選。"
+  },
+  {
+    "claim_id": "gemini_c_cand_1977",
+    "winter_year": 1977,
+    "proposed_outcome": "occurred",
+    "review_status": "unresolved",
+    "source_ids": [
+      "gemini_s006"
+    ],
+    "interpretation": "維基百科轉錄的《長野日報》出現年清單有正面列舉此年份（昭和52年），列為出現候選。"
+  },
+  {
+    "claim_id": "gemini_c_cand_1979",
+    "winter_year": 1979,
+    "proposed_outcome": "not_observed",
+    "review_status": "unresolved",
+    "source_ids": [
+      "gemini_s006"
+    ],
+    "interpretation": "維基百科轉錄的《長野日報》出現年清單中未列出此年份（昭和54年），作為未出現的待核線索。取得上游資料前不可當作正式結論。"
+  },
+  {
+    "claim_id": "gemini_c_cand_1980",
+    "winter_year": 1980,
+    "proposed_outcome": "occurred",
+    "review_status": "unresolved",
+    "source_ids": [
+      "gemini_s006"
+    ],
+    "interpretation": "維基百科轉錄的《長野日報》出現年清單有正面列舉此年份（昭和55年），列為出現候選。"
+  },
+  {
+    "claim_id": "gemini_c_cand_1981",
+    "winter_year": 1981,
+    "proposed_outcome": "occurred",
+    "review_status": "unresolved",
+    "source_ids": [
+      "gemini_s006"
+    ],
+    "interpretation": "維基百科轉錄的《長野日報》出現年清單有正面列舉此年份（昭和56年），列為出現候選。"
+  },
+  {
+    "claim_id": "gemini_c_cand_1982",
+    "winter_year": 1982,
+    "proposed_outcome": "occurred",
+    "review_status": "unresolved",
+    "source_ids": [
+      "gemini_s006"
+    ],
+    "interpretation": "維基百科轉錄的《長野日報》出現年清單有正面列舉此年份（昭和57年），列為出現候選。"
+  },
+  {
+    "claim_id": "gemini_c_cand_1983",
+    "winter_year": 1983,
+    "proposed_outcome": "occurred",
+    "review_status": "unresolved",
+    "source_ids": [
+      "gemini_s006"
+    ],
+    "interpretation": "維基百科轉錄的《長野日報》出現年清單有正面列舉此年份（昭和58年），列為出現候選。"
+  },
+  {
+    "claim_id": "gemini_c_cand_1984",
+    "winter_year": 1984,
+    "proposed_outcome": "occurred",
+    "review_status": "unresolved",
+    "source_ids": [
+      "gemini_s006"
+    ],
+    "interpretation": "維基百科轉錄的《長野日報》出現年清單有正面列舉此年份（昭和59年），列為出現候選。"
+  },
+  {
+    "claim_id": "gemini_c_cand_1985",
+    "winter_year": 1985,
+    "proposed_outcome": "occurred",
+    "review_status": "unresolved",
+    "source_ids": [
+      "gemini_s006"
+    ],
+    "interpretation": "維基百科轉錄的《長野日報》出現年清單有正面列舉此年份（昭和60年），列為出現候選。"
+  },
+  {
+    "claim_id": "gemini_c_cand_1986",
+    "winter_year": 1986,
+    "proposed_outcome": "occurred",
+    "review_status": "unresolved",
+    "source_ids": [
+      "gemini_s006"
+    ],
+    "interpretation": "維基百科轉錄的《長野日報》出現年清單有正面列舉此年份（昭和61年），列為出現候選。"
+  }
+]

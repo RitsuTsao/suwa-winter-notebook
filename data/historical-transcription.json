@@ -1,0 +1,470 @@
+[
+  {
+    "winter_year": 1877,
+    "source_column": 1870,
+    "source_row": "6〜7",
+    "token": "A"
+  },
+  {
+    "winter_year": 1878,
+    "source_column": 1870,
+    "source_row": "7〜8",
+    "token": "A"
+  },
+  {
+    "winter_year": 1879,
+    "source_column": 1870,
+    "source_row": "8〜9",
+    "token": "A"
+  },
+  {
+    "winter_year": 1880,
+    "source_column": 1870,
+    "source_row": "9〜0",
+    "token": "M"
+  },
+  {
+    "winter_year": 1881,
+    "source_column": 1880,
+    "source_row": "0〜1",
+    "token": "A"
+  },
+  {
+    "winter_year": 1882,
+    "source_column": 1880,
+    "source_row": "1〜2",
+    "token": "A"
+  },
+  {
+    "winter_year": 1883,
+    "source_column": 1880,
+    "source_row": "2〜3",
+    "token": "A"
+  },
+  {
+    "winter_year": 1884,
+    "source_column": 1880,
+    "source_row": "3〜4",
+    "token": "A"
+  },
+  {
+    "winter_year": 1885,
+    "source_column": 1880,
+    "source_row": "4〜5",
+    "token": "A"
+  },
+  {
+    "winter_year": 1886,
+    "source_column": 1880,
+    "source_row": "5〜6",
+    "token": "A"
+  },
+  {
+    "winter_year": 1887,
+    "source_column": 1880,
+    "source_row": "6〜7",
+    "token": "A"
+  },
+  {
+    "winter_year": 1888,
+    "source_column": 1880,
+    "source_row": "7〜8",
+    "token": "A"
+  },
+  {
+    "winter_year": 1889,
+    "source_column": 1880,
+    "source_row": "8〜9",
+    "token": "A"
+  },
+  {
+    "winter_year": 1890,
+    "source_column": 1880,
+    "source_row": "9〜0",
+    "token": "M"
+  },
+  {
+    "winter_year": 1891,
+    "source_column": 1890,
+    "source_row": "0〜1",
+    "token": "A"
+  },
+  {
+    "winter_year": 1892,
+    "source_column": 1890,
+    "source_row": "1〜2",
+    "token": "A"
+  },
+  {
+    "winter_year": 1893,
+    "source_column": 1890,
+    "source_row": "2〜3",
+    "token": "1-21*"
+  },
+  {
+    "winter_year": 1894,
+    "source_column": 1890,
+    "source_row": "3〜4",
+    "token": "1-30*"
+  },
+  {
+    "winter_year": 1895,
+    "source_column": 1890,
+    "source_row": "4〜5",
+    "token": "1-28*"
+  },
+  {
+    "winter_year": 1896,
+    "source_column": 1890,
+    "source_row": "5〜6",
+    "token": "2-14*"
+  },
+  {
+    "winter_year": 1897,
+    "source_column": 1890,
+    "source_row": "6〜7",
+    "token": "1-27*"
+  },
+  {
+    "winter_year": 1898,
+    "source_column": 1890,
+    "source_row": "7〜8",
+    "token": "1-19*"
+  },
+  {
+    "winter_year": 1899,
+    "source_column": 1890,
+    "source_row": "8〜9",
+    "token": "1-28*"
+  },
+  {
+    "winter_year": 1900,
+    "source_column": 1890,
+    "source_row": "9〜0",
+    "token": "2-8*"
+  },
+  {
+    "winter_year": 1901,
+    "source_column": 1900,
+    "source_row": "0〜1",
+    "token": "1-30*"
+  },
+  {
+    "winter_year": 1902,
+    "source_column": 1900,
+    "source_row": "1〜2",
+    "token": "1-26*"
+  },
+  {
+    "winter_year": 1903,
+    "source_column": 1900,
+    "source_row": "2〜3",
+    "token": "2-16*"
+  },
+  {
+    "winter_year": 1904,
+    "source_column": 1900,
+    "source_row": "3〜4",
+    "token": "1-9*"
+  },
+  {
+    "winter_year": 1905,
+    "source_column": 1900,
+    "source_row": "4〜5",
+    "token": "1-12*"
+  },
+  {
+    "winter_year": 1906,
+    "source_column": 1900,
+    "source_row": "5〜6",
+    "token": "1-29*"
+  },
+  {
+    "winter_year": 1907,
+    "source_column": 1900,
+    "source_row": "6〜7",
+    "token": "1-27*"
+  },
+  {
+    "winter_year": 1908,
+    "source_column": 1900,
+    "source_row": "7〜8",
+    "token": "1-18*"
+  },
+  {
+    "winter_year": 1909,
+    "source_column": 1900,
+    "source_row": "8〜9",
+    "token": "1-24*"
+  },
+  {
+    "winter_year": 1910,
+    "source_column": 1900,
+    "source_row": "9〜0",
+    "token": "2-15*"
+  },
+  {
+    "winter_year": 1911,
+    "source_column": 1910,
+    "source_row": "0〜1",
+    "token": "1-23*"
+  },
+  {
+    "winter_year": 1912,
+    "source_column": 1910,
+    "source_row": "1〜2",
+    "token": "2-8*"
+  },
+  {
+    "winter_year": 1913,
+    "source_column": 1910,
+    "source_row": "2〜3",
+    "token": "1-30*"
+  },
+  {
+    "winter_year": 1914,
+    "source_column": 1910,
+    "source_row": "3〜4",
+    "token": "N"
+  },
+  {
+    "winter_year": 1915,
+    "source_column": 1910,
+    "source_row": "4〜5",
+    "token": "1-24*"
+  },
+  {
+    "winter_year": 1916,
+    "source_column": 1910,
+    "source_row": "5〜6",
+    "token": "M"
+  },
+  {
+    "winter_year": 1917,
+    "source_column": 1910,
+    "source_row": "6〜7",
+    "token": "1-23*"
+  },
+  {
+    "winter_year": 1918,
+    "source_column": 1910,
+    "source_row": "7〜8",
+    "token": "1-31*"
+  },
+  {
+    "winter_year": 1919,
+    "source_column": 1910,
+    "source_row": "8〜9",
+    "token": "1-9*"
+  },
+  {
+    "winter_year": 1920,
+    "source_column": 1910,
+    "source_row": "9〜0",
+    "token": "1-27*"
+  },
+  {
+    "winter_year": 1921,
+    "source_column": 1920,
+    "source_row": "0〜1",
+    "token": "2-5*"
+  },
+  {
+    "winter_year": 1922,
+    "source_column": 1920,
+    "source_row": "1〜2",
+    "token": "1-27*"
+  },
+  {
+    "winter_year": 1923,
+    "source_column": 1920,
+    "source_row": "2〜3",
+    "token": "1-24*"
+  },
+  {
+    "winter_year": 1924,
+    "source_column": 1920,
+    "source_row": "3〜4",
+    "token": "1-30"
+  },
+  {
+    "winter_year": 1925,
+    "source_column": 1920,
+    "source_row": "4〜5",
+    "token": "1-17"
+  },
+  {
+    "winter_year": 1926,
+    "source_column": 1920,
+    "source_row": "5〜6",
+    "token": "1-7"
+  },
+  {
+    "winter_year": 1927,
+    "source_column": 1920,
+    "source_row": "6〜7",
+    "token": "12-28"
+  },
+  {
+    "winter_year": 1928,
+    "source_column": 1920,
+    "source_row": "7〜8",
+    "token": "1-8"
+  },
+  {
+    "winter_year": 1929,
+    "source_column": 1920,
+    "source_row": "8〜9",
+    "token": "1-5"
+  },
+  {
+    "winter_year": 1930,
+    "source_column": 1920,
+    "source_row": "9〜0",
+    "token": "1-11"
+  },
+  {
+    "winter_year": 1931,
+    "source_column": 1930,
+    "source_row": "0〜1",
+    "token": "1-18"
+  },
+  {
+    "winter_year": 1932,
+    "source_column": 1930,
+    "source_row": "1〜2",
+    "token": "M"
+  },
+  {
+    "winter_year": 1933,
+    "source_column": 1930,
+    "source_row": "2〜3",
+    "token": "1-16"
+  },
+  {
+    "winter_year": 1934,
+    "source_column": 1930,
+    "source_row": "3〜4",
+    "token": "1-10"
+  },
+  {
+    "winter_year": 1935,
+    "source_column": 1930,
+    "source_row": "4〜5",
+    "token": "2-9"
+  },
+  {
+    "winter_year": 1936,
+    "source_column": 1930,
+    "source_row": "5〜6",
+    "token": "12-31"
+  },
+  {
+    "winter_year": 1937,
+    "source_column": 1930,
+    "source_row": "6〜7",
+    "token": "N"
+  },
+  {
+    "winter_year": 1938,
+    "source_column": 1930,
+    "source_row": "7〜8",
+    "token": "1-9"
+  },
+  {
+    "winter_year": 1939,
+    "source_column": 1930,
+    "source_row": "8〜9",
+    "token": "1-8"
+  },
+  {
+    "winter_year": 1940,
+    "source_column": 1930,
+    "source_row": "9〜0",
+    "token": "1-22"
+  },
+  {
+    "winter_year": 1941,
+    "source_column": 1940,
+    "source_row": "0〜1",
+    "token": "2-5"
+  },
+  {
+    "winter_year": 1942,
+    "source_column": 1940,
+    "source_row": "1〜2",
+    "token": "1-22"
+  },
+  {
+    "winter_year": 1943,
+    "source_column": 1940,
+    "source_row": "2〜3",
+    "token": "1-8"
+  },
+  {
+    "winter_year": 1944,
+    "source_column": 1940,
+    "source_row": "3〜4",
+    "token": "1-19"
+  },
+  {
+    "winter_year": 1945,
+    "source_column": 1940,
+    "source_row": "4〜5",
+    "token": "1-5"
+  },
+  {
+    "winter_year": 1946,
+    "source_column": 1940,
+    "source_row": "5〜6",
+    "token": "1-3"
+  },
+  {
+    "winter_year": 1947,
+    "source_column": 1940,
+    "source_row": "6〜7",
+    "token": "1-8"
+  },
+  {
+    "winter_year": 1948,
+    "source_column": 1940,
+    "source_row": "7〜8",
+    "token": "12-24"
+  },
+  {
+    "winter_year": 1949,
+    "source_column": 1940,
+    "source_row": "8〜9",
+    "token": "M"
+  },
+  {
+    "winter_year": 1950,
+    "source_column": 1940,
+    "source_row": "9〜0",
+    "token": "1-13"
+  },
+  {
+    "winter_year": 1951,
+    "source_column": "explicit",
+    "source_row": "1950–1951",
+    "token": "1-9"
+  },
+  {
+    "winter_year": 1952,
+    "source_column": "explicit",
+    "source_row": "1951–1952",
+    "token": "1-19"
+  },
+  {
+    "winter_year": 1953,
+    "source_column": "explicit",
+    "source_row": "1952–1953",
+    "token": "N"
+  },
+  {
+    "winter_year": 1954,
+    "source_column": "explicit",
+    "source_row": "1953–1954",
+    "token": "1-27"
+  }
+]

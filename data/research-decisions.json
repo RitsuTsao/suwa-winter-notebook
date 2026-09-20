@@ -1,0 +1,171 @@
+{
+  "reviewed_on": "2026-09-20",
+  "input": "research-input-gemini-v3.json",
+  "decisions": [
+    {
+      "claim_id": "gemini_c_out_1987",
+      "decision": "accepted_annual_outcome",
+      "event_id": "1987-season_report-1"
+    },
+    {
+      "claim_id": "gemini_c_out_1988",
+      "decision": "accepted_annual_outcome",
+      "event_id": "1988-season_report-1"
+    },
+    {
+      "claim_id": "gemini_c_out_1989",
+      "decision": "accepted_annual_outcome",
+      "event_id": "1989-season_report-1"
+    },
+    {
+      "claim_id": "gemini_c_cand_1955",
+      "decision": "candidate_only"
+    },
+    {
+      "claim_id": "gemini_c_cand_1956",
+      "decision": "candidate_only"
+    },
+    {
+      "claim_id": "gemini_c_cand_1957",
+      "decision": "candidate_only"
+    },
+    {
+      "claim_id": "gemini_c_cand_1958",
+      "decision": "candidate_only"
+    },
+    {
+      "claim_id": "gemini_c_cand_1959",
+      "decision": "candidate_only"
+    },
+    {
+      "claim_id": "gemini_c_cand_1960",
+      "decision": "candidate_only"
+    },
+    {
+      "claim_id": "gemini_c_cand_1961",
+      "decision": "candidate_only"
+    },
+    {
+      "claim_id": "gemini_c_cand_1962",
+      "decision": "candidate_only"
+    },
+    {
+      "claim_id": "gemini_c_cand_1963",
+      "decision": "candidate_only"
+    },
+    {
+      "claim_id": "gemini_c_cand_1964",
+      "decision": "candidate_only"
+    },
+    {
+      "claim_id": "gemini_c_cand_1965",
+      "decision": "candidate_only"
+    },
+    {
+      "claim_id": "gemini_c_cand_1966",
+      "decision": "candidate_only"
+    },
+    {
+      "claim_id": "gemini_c_cand_1967",
+      "decision": "candidate_only"
+    },
+    {
+      "claim_id": "gemini_c_cand_1968",
+      "decision": "candidate_only"
+    },
+    {
+      "claim_id": "gemini_c_cand_1969",
+      "decision": "candidate_only"
+    },
+    {
+      "claim_id": "gemini_c_cand_1970",
+      "decision": "candidate_only"
+    },
+    {
+      "claim_id": "gemini_c_cand_1971",
+      "decision": "candidate_only"
+    },
+    {
+      "claim_id": "gemini_c_cand_1972",
+      "decision": "candidate_only"
+    },
+    {
+      "claim_id": "gemini_c_cand_1973",
+      "decision": "candidate_only"
+    },
+    {
+      "claim_id": "gemini_c_cand_1974",
+      "decision": "candidate_only"
+    },
+    {
+      "claim_id": "gemini_c_cand_1975",
+      "decision": "candidate_only"
+    },
+    {
+      "claim_id": "gemini_c_cand_1976",
+      "decision": "candidate_only"
+    },
+    {
+      "claim_id": "gemini_c_cand_1977",
+      "decision": "candidate_only"
+    },
+    {
+      "claim_id": "gemini_c_cand_1979",
+      "decision": "candidate_only"
+    },
+    {
+      "claim_id": "gemini_c_cand_1980",
+      "decision": "candidate_only"
+    },
+    {
+      "claim_id": "gemini_c_cand_1981",
+      "decision": "candidate_only"
+    },
+    {
+      "claim_id": "gemini_c_cand_1982",
+      "decision": "candidate_only"
+    },
+    {
+      "claim_id": "gemini_c_cand_1983",
+      "decision": "candidate_only"
+    },
+    {
+      "claim_id": "gemini_c_cand_1984",
+      "decision": "candidate_only"
+    },
+    {
+      "claim_id": "gemini_c_cand_1985",
+      "decision": "candidate_only"
+    },
+    {
+      "claim_id": "gemini_c_cand_1986",
+      "decision": "candidate_only"
+    },
+    {
+      "claim_id": "gemini_c003",
+      "decision": "reinforce_existing_candidate",
+      "event_id": "2018-first_observed-6"
+    },
+    {
+      "claim_id": "gemini_c007",
+      "decision": "candidate_date_only",
+      "event_id": "2004-first_observed-2"
+    },
+    {
+      "claim_id": "gemini_c006",
+      "decision": "accepted_observation_not_first_date",
+      "event_id": "2012-observation_confirmation-2"
+    },
+    {
+      "claim_id": "gemini_c004",
+      "decision": "retain_text_only",
+      "event_id": "2013-sighting-2"
+    },
+    {
+      "claim_id": "gemini_c001",
+      "decision": "reinforce_existing_no_raw_quote",
+      "event_id": "2026-ice_cover-2"
+    }
+  ],
+  "policy": "No raw recommendation is automatically applied. Candidate annual results remain unknown."
+}
