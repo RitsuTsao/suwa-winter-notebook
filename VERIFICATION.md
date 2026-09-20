@@ -1,6 +1,6 @@
 # Verification record
 
-Version **0.3.1** · 2026-09-20. Creator: **Ritsu**. Engineering checks were performed with Codex assistance; attribution and model-version limits are in [CREDITS.md](CREDITS.md).
+Version **0.4.0-beta.1** · 2026-09-20. Creator: **Ritsu**. Engineering checks were performed with Codex assistance; attribution and model-version limits are in [CREDITS.md](CREDITS.md).
 
 “Verified” describes an actual check in the stated environment. “Reviewed” describes inspection. Neither means independent historical certification or a tested public deployment.
 
@@ -77,3 +77,11 @@ Screenshots, raw test reports, and pre-change ZIP backups are held in the local 
 3. Choose 1960: ledger artwork and an unresolved main outcome with candidate notes.
 4. Open the overview: orange corners for 2004/2018, markers for all winters, and a horizontally scrollable chart on narrow screens.
 5. Use navigation 01–04; inspect all six date-chart symbols. Open news through the local launcher for live retrieval or directly as HTML for a saved snapshot.
+
+## Beta 0.4.0-beta.1 — pre-deployment checks
+
+- Verified: 13 core tests, 5 news tests, and 5 new publication tests pass. Failure recovery preserves the previous successful retrieval time and persists the failed-attempt state; empty success clears items; invalid/future/older fallback snapshots are rejected or ignored.
+- Verified: existing desktop/mobile historical and live-news browser suites pass, with no JavaScript errors. The new static-host suite passes ten checks for repository subpaths, same-origin JSON, manual refresh, failure retention, 36-hour stale notice, empty results, version display, and mobile width. Direct-file use still makes no HTTP requests.
+- Verified: real local RSS refresh returns three dated items. Historical annual/event/source/coverage/climate/candidate/story datasets remain byte-identical to 0.3.1.
+- Reviewed: Public repository visibility and GitHub Actions as the Pages source are confirmed in GitHub settings. Ritsu explicitly authorized making source, research, and documents public and completed GitHub identity verification.
+- Deployment and a workflow run are not claimed by these local checks; live results will be recorded separately. The first future daily scheduled invocation remains unobserved until it actually occurs.

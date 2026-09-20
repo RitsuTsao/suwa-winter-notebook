@@ -118,6 +118,7 @@ def load_snapshot():
 def save_snapshot(snapshot):
     text = json.dumps(snapshot, ensure_ascii=False, indent=2)
     for target, body in [(ROOT/'data/news.json', text+'\n'),
+                         (ROOT/'dist/news.json', text+'\n'),
                          (ROOT/'dist/news-data.js', 'window.SUWA_NEWS='+text.replace('<', '\\u003c')+';\n')]:
         temp = target.with_suffix(target.suffix+'.tmp')
         temp.write_text(body)
@@ -154,6 +155,8 @@ class NewsService:
             else:
                 self.snapshot = {**self.snapshot, 'status':'unavailable', 'attempted_at':attempted,
                                  'failed_sources':failures, 'feeds':self.feeds}
+                if self.persist:
+                    save_snapshot(self.snapshot)
             return self.snapshot
 
 

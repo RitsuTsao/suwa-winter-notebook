@@ -1,12 +1,19 @@
 window.SUWA_NEWS={
   "status": "ready",
-  "fetched_at": "2026-09-20T07:23:11.481497+00:00",
-  "attempted_at": "2026-09-20T07:23:11.481497+00:00",
+  "fetched_at": "2026-09-20T10:01:38.500945+00:00",
+  "attempted_at": "2026-09-20T10:01:38.500945+00:00",
   "items": [
+    {
+      "title": "諏訪市 ２９８万円 14.09％ 戸建賃貸",
+      "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNbmU0aWVBLUp5MDNGZ2k0LTR0NFBDX0E5c1E3NGczVTFiQS00aGFyRUE0alRXV0tJbElaMzV0RlhFTGJpWXVMNWFUMVg4SDJXTjI4dGNiaGZsS19oVUctVHJ5dDdJeS1HNDlZQXExRWhEaGNBTnNjUVhiVWNzVE9Bdm9NWDJFY2JXamc?oc=5",
+      "publisher": "rakumachi.jp",
+      "published_at": "2026-09-20T04:36:36+00:00",
+      "feed_id": "suwa-google-news"
+    },
     {
       "title": "茅野市の交差点で車と衝突 歩いて渡っていた諏訪市の68歳男性が重体",
       "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1XbFRfLW5FY2xEdFoxd2ttYUN6Y2trZURLVGdPODNSdE5jSGNkaDRPR1lxam1YMlVrTnVTQmtoME01d2x4ZUN5Q2ZqSFdNd0U3SC1ETUJqbTQ4Zl92dmFqV0x5S1hOUl9vYnA0RExvbFU?oc=5",
-      "publisher": "信濃毎日新聞デジタル",
+      "publisher": "shinmai.co.jp",
       "published_at": "2026-09-19T15:41:00+00:00",
       "feed_id": "suwa-google-news"
     },
@@ -15,13 +22,6 @@ window.SUWA_NEWS={
       "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE93NzNwOHNlUThhNWRWc29TU1dJRFFnQnpKbHZ3WFNkWkk1b2FUX3o1SS0yUFozRGVxcXJlOEFvWVBNVTBzNjJxTVRNSHl3YnZYZnhDQ1RfVGU2VHRpelNvbjNKa1JUYjZ3T1E?oc=5",
       "publisher": "tenki.jp",
       "published_at": "2026-09-19T12:00:00+00:00",
-      "feed_id": "suwa-google-news"
-    },
-    {
-      "title": "諏訪市でアパート火災 21歳の男性1人搬送",
-      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBGYkZRbFRiMnAwLUNxejNZSWtYb1FENW1qWkh4b1hoQ2d0YkprcVIzWFhmanRHeXNmU0o4aGpKM3dBQ2FLYzYwNk91bkN0Q0pCMzl6VHp1enhuSU9nVldzZTZLRk5fME4tb3NfZlNrTUk?oc=5",
-      "publisher": "信濃毎日新聞デジタル",
-      "published_at": "2026-09-19T10:34:00+00:00",
       "feed_id": "suwa-google-news"
     }
   ],

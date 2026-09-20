@@ -1,12 +1,14 @@
 # Suwa Winter Notebook
 
-**Version 0.3.1 · 2026-09-20 · Created by Ritsu with AI collaboration**
+**Version 0.4.0-beta.1 · 2026-09-20 · Created by Ritsu with AI collaboration**
 
 An interactive notebook about Lake Suwa and Omiwatari (御神渡り): browse 150 winters, explore a hypothetical short stay, and read about the lake, its deities, and the people who record it.
 
 This is a historical exploration tool, not a forecast or a travel-success calculator. Missing records remain visible as missing records.
 
-**Repository:** [RitsuTsao/suwa-winter-notebook](https://github.com/RitsuTsao/suwa-winter-notebook), intended for private backup and development. GitHub Pages and scheduled updates are not enabled in this version. The website interface remains in Traditional Chinese; repository documentation is in English, with original Japanese names and source titles where useful.
+**Repository:** [RitsuTsao/suwa-winter-notebook](https://github.com/RitsuTsao/suwa-winter-notebook), public with Ritsu's explicit approval. The beta uses GitHub Pages with a daily RSS refresh workflow. The website interface remains in Traditional Chinese; repository documentation is in English, with original Japanese names and source titles where useful.
+
+**Beta website:** [Open Suwa Winter Notebook](https://ritsutsao.github.io/suwa-winter-notebook/). Deployment evidence and scheduler limits are recorded in [VERIFICATION.md](VERIFICATION.md).
 
 ## Creator and AI disclosure
 
@@ -52,7 +54,7 @@ python3 -B tools/serve.py --open
 
 This requires an existing Python 3 installation and `curl`. On macOS, the system curl performs HTTPS certificate verification; no Python packages need to be installed. The service listens only on `127.0.0.1`, normally at `http://127.0.0.1:8767/`. Keep the terminal open; press Control+C to stop. Nothing is installed as a background service. Other operating systems have not been validated.
 
-A generic static server or GitHub Pages cannot run this Python service. The current remote/static behavior is snapshot-only; automatic public news updates remain a proposal.
+GitHub Pages serves static files. A GitHub Actions workflow refreshes news during deployment; visitors read the resulting same-origin JSON snapshot. The Python server remains an optional local-use feature.
 
 ## Data coverage and interpretation
 
@@ -84,6 +86,12 @@ See [RESEARCH.md](RESEARCH.md) and [data/sources.json](data/sources.json) for pr
 The current feed is a Google News RSS search for `諏訪市 OR 諏訪地方`. It is an aggregator, not a newspaper's or shrine's direct feed. The interface shows original titles, publisher names, publication times, and outbound links. It sorts and deduplicates results, saves at most three items, and does not fetch article bodies, translate articles, or keep a news archive.
 
 In local-service mode, opening the news tab requests data. The service caches for 15 minutes; a visible active news tab checks again at that interval. Manual fetching is limited to at least 30 seconds between upstream requests. A failed fetch retains the last snapshot with a failure notice; a successfully retrieved empty feed clears old items. “Latest” means latest available in that feed response, not complete coverage of local journalism. News does not follow the selected historical year.
+
+The public beta refreshes RSS on pushes to `main`, manual workflow dispatch, and a daily schedule at **22:17 UTC / 06:17 Asia/Taipei / 07:17 Asia/Tokyo**. The visitor button reloads the published snapshot; it does not trigger a server-side RSS search. A snapshot older than 36 hours is labeled stale. Historical records are not automatically researched or changed.
+
+The workflow first retrieves the previous deployed snapshot. On RSS failure it publishes an explicit failure state with the last available items; if the old site is also unavailable, the dated repository snapshot is the final fallback. A valid empty feed clears items. Refresh failures leave the workflow red after deploying the labeled fallback. News updates do not create daily Git commits; deployment artifacts have short retention. See [OPERATIONS.md](OPERATIONS.md) for retry and rollback.
+
+GitHub schedules are best-effort and may be delayed or dropped. Public-repository schedules may be disabled after 60 days without repository activity. This site is not a continuously monitored news service. [GitHub schedule documentation](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule).
 
 ## Files and maintenance
 
@@ -119,10 +127,10 @@ Browser checks require an existing Playwright module and Chrome. `node tests/bro
 
 ## Corrections, rights, and future work
 
-For a correction, provide the winter, event type, locatable original passage/page, URL, and proposed interpretation. AI-generated text without source support is a lead, not evidence. External contribution workflows have not been established for this private repository.
+For a correction, provide the winter, event type, locatable original passage/page, URL, and proposed interpretation. AI-generated text without source support is a lead, not evidence. Issue and pull-request submissions are review inputs; no automated adoption workflow or response-time commitment is provided.
 
 No project-wide MIT, Creative Commons, or other reuse license has been selected. Code, documentation, curated data, AI artwork, and third-party material need separate consideration before public distribution or reuse. No third-party article bodies, scanned papers, or private photographs are bundled. The artwork is contemporary fiction, not traditional iconography or a historical reconstruction.
 
-Historical completion, new data sources, future winters, interactive cold indicators, forecasting experiments, animation, and Imagen integration are all in [ROADMAP.md](ROADMAP.md); they are not implemented or promised. No visitor-facing feature was added during repository preparation.
+Historical completion, new data sources, future winters, interactive cold indicators, forecasting experiments, animation, and Imagen integration are all in [ROADMAP.md](ROADMAP.md); they are not implemented or promised. The beta adds hosting and scheduled news delivery; other proposed features remain deferred.
 
 Observe the lake from shore. Do not walk onto lake ice.

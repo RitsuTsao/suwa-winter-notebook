@@ -167,6 +167,6 @@
   document.querySelector('.story-tabs').addEventListener('keydown',e=>{if(!['ArrowLeft','ArrowRight','ArrowUp','ArrowDown','Home','End'].includes(e.key))return;e.preventDefault();const i=e.key==='Home'?0:e.key==='End'?stories.length-1:(state.story+(['ArrowLeft','ArrowUp'].includes(e.key)?-1:1)+stories.length)%stories.length;renderStory(i);$(`tab-${stories[i].id}`).focus();});
   const tips={male:['同一個冬季的十二月，要翻到前一個西元年。','神事日與冰脊出現的日子，可能相隔幾天。','帳本留白時，我們就讓它留白。'],female:['先在岸邊坐一會兒，湖面有許多種冬天。','沒有御神渡，也可能遇見結冰的湖。','兩個有照片的日子，中間仍有我們不知道的事。']};
   ['male','female'].forEach(id=>{let n=0;$(id).onclick=()=>{$('companion-message').textContent=tips[id][n++%tips[id].length];$('companion-message').hidden=false;};});
-  $('edition').textContent=`本機觀測冊 · 資料整理 ${D.coverage.as_of} · 不預測下一個冬季`;
+  $('edition').textContent=`Beta 0.4.0-beta.1 · 資料整理 ${D.coverage.as_of} · 不預測下一個冬季`;
   renderStory(0);renderStats();renderYear();
 })();

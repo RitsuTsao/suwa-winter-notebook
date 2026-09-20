@@ -1,18 +1,18 @@
 # Future roadmap
 
-Version **0.3.1** · 2026-09-20. Creator/producer: **Ritsu**. Planning input: ChatGPT **GPT-5.6 Sol**, integrated by Codex **GPT-6**. See [CREDITS.md](CREDITS.md) for attribution limits.
+Version **0.4.0-beta.1** · 2026-09-20. Creator/producer: **Ritsu**. Planning input: ChatGPT **GPT-5.6 Sol**, integrated by Codex **GPT-6**. See [CREDITS.md](CREDITS.md) for attribution limits.
 
-**All additional product features below are proposals: not implemented, scheduled, or automatically authorized.** The first private repository milestone covers backup, English documentation, and attribution only. A recommendation labeled “ready now” in the original planning package does not expand that scope.
+**All additional product features below are proposals: not implemented, scheduled, or automatically authorized.** The private backup milestone is complete. Ritsu has now authorized public beta hosting and RSS automation (R1/R5); the other product proposals remain deferred. A recommendation labeled “ready now” in the original planning package does not expand that scope.
 
 ## Repository and eventual publication
 
 | Original ID | Proposed work | Completion criteria and boundary |
 | --- | --- | --- |
-| R1 | Repository baseline and eventual Pages publication | Private source backup is the current milestone. Public hosting remains separate: confirm visibility, validate repository subpaths, assets, links, and offline use, then authorize deployment |
+| R1 | Repository baseline and eventual Pages publication | Public beta hosting is the current approved milestone; validate repository subpaths, assets, links, and offline use. See OPERATIONS and VERIFICATION for actual deployment status |
 | R7 | Rights and asset inventory | Separate code, documents, curated data, AI images, and third-party content. Basic attribution is documented now; choosing licenses and clearing public distribution remain future decisions. MIT/CC are options, not applied licenses |
-| R5 | Public RSS snapshots | Consider a scheduled GitHub Actions snapshot with at most three items, retrieval/failure/staleness indicators, and independence from historical data. Retain on fetch failure; clear on a valid empty feed. Scheduling requires separate approval |
+| R5 | Public RSS snapshots | Implemented for this beta: daily GitHub Actions snapshots with at most three items, failure/staleness indicators, and independence from historical data. Retain on fetch failure; clear on a valid empty feed. Validate future scheduled execution separately |
 
-R5 adapts the existing local news feature to public hosting. No workflow is included in this version. A remotely hosted copy of the current site can only show a saved snapshot and must not be described as automatically updated daily news.
+R5 adapts the existing local news feature to public hosting. The beta includes a workflow that refreshes and deploys snapshots. Its daily schedule is best-effort, not a guarantee of timely execution.
 
 ## Data and maintainability
 

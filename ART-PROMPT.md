@@ -1,6 +1,6 @@
 # Illustration generation record
 
-Documentation version **0.3.1** · 2026-09-20. Creative direction and product acceptance: **Ritsu**. Image prompts, orchestration, and integration: **Codex** with the OpenAI `imagegen` tool. **The underlying image-model version was not exposed in retained generation records.** Do not assume it was Imagen or assign the current Codex text-model version to these images. See [CREDITS.md](CREDITS.md).
+Documentation version **0.4.0-beta.1** · 2026-09-20. Creative direction and product acceptance: **Ritsu**. Image prompts, orchestration, and integration: **Codex** with the OpenAI `imagegen` tool. **The underlying image-model version was not exposed in retained generation records.** Do not assume it was Imagen or assign the current Codex text-model version to these images. See [CREDITS.md](CREDITS.md).
 
 All six PNG files are AI-generated contemporary artwork. They are not hand-painted by Ritsu, traditional deity portraits, reconstructed annual ice conditions, or safe lake-crossing instructions. Prompts preserve production intent, not a guarantee of exact rerendering. Earlier reference generations are not all bundled.
 

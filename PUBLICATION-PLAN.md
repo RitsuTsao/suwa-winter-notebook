@@ -1,8 +1,21 @@
-# Repository and publication plan
+# Beta publication decisions
+
+Version **0.4.0-beta.1** · 2026-09-20. Creator/producer: **Ritsu**; implementation: **Codex / GPT-6**. See [CREDITS.md](CREDITS.md).
+
+Ritsu reviewed the private repository and requested public beta hosting plus automatic updates. GitHub's settings required an account upgrade or public repository for Pages; Ritsu explicitly selected **make the existing repository public**, including its code, research, and documentation.
+
+The approved beta scope is Pages hosting and scheduled RSS snapshots. It does not authorize automatic historical adoption, forecasting, new illustrations, live AI APIs, or a new reuse license. Only `dist/` is uploaded as the website artifact; repository files remain visible as explicitly approved. Private photos, credentials, and workstation backups remain excluded.
+
+A daily 22:17 UTC workflow tests the data, recovers the previous deployed snapshot, fetches the fixed RSS source, and publishes the site. No external deployment credential is added: GitHub's job-scoped token has read-only repository access and Pages/OIDC permissions only in the deployment job. The workflow does not write commits. See [OPERATIONS.md](OPERATIONS.md).
+
+Deployment, local tests, and future scheduled execution are separately recorded in [VERIFICATION.md](VERIFICATION.md). Reuse licensing remains undecided; no MIT/CC license was silently applied.
+
+## Prior private-backup milestone and planning corrections
+
 
 Version **0.3.1** · 2026-09-20. Project creator: **Ritsu**. AI attribution: [CREDITS.md](CREDITS.md).
 
-## Confirmed repository milestone
+## Historical decision: repository 0.3.1
 
 - Repository: `RitsuTsao/suwa-winter-notebook` under Ritsu's verified GitHub account.
 - Visibility: **Private**, explicitly chosen by Ritsu.
@@ -30,7 +43,7 @@ The four supplied ChatGPT documents (PRODUCT-DIRECTION, ROADMAP, README, DECISIO
 
 The supplied planning originals remain in the local pre-repository work archive. This repository contains the integrated English documentation, not an unreviewed copy of those recommendations.
 
-## Before any public release
+## Original publication checklist (superseded by the beta decisions above)
 
 Confirm public visibility and separate rights treatment for code, documentation, curated data, artwork, and third-party material. Review the source/asset inventory and quotations before distributing publicly. Community policies, issue templates, API budgets, and a maintenance schedule are not automatically activated by creating this private backup.
 

@@ -1,6 +1,6 @@
 # Credits and AI provenance
 
-Applies to version **0.3.1**, prepared on **2026-09-20**.
+Applies to version **0.4.0-beta.1**, prepared on **2026-09-20**.
 
 ## Human creator
 
@@ -35,3 +35,7 @@ The names above describe these particular sessions, not current service availabi
 `VERSION` records the first repository baseline as **0.3.1**: the third local edition plus general-audience copy and English repository documentation. Earlier “first”, “second”, and “third” editions were local deliveries, not existing Git tags or releases. No historical commits, signed authorship attestations, or model identifiers have been fabricated.
 
 Future changes should record the actual AI tool/model when available, the task it performed, the human review performed, and any version information that was not retained. See [CHANGELOG.md](CHANGELOG.md), [COLLABORATION.md](COLLABORATION.md), and [ART-PROMPT.md](ART-PROMPT.md).
+
+## Beta deployment contribution — 0.4.0-beta.1
+
+Ritsu authorized public hosting and automatic news delivery. Codex (GPT-6; exact deployment identifier not exposed) implemented the Pages workflow, snapshot recovery, static-host news behavior, tests, English operations documentation, and release integration. No new image generation, historical research, or LLM runtime was introduced. Earlier model disclosures remain scoped to their recorded sessions.

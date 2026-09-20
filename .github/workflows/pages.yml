@@ -1,0 +1,59 @@
+name: Publish beta and refresh news
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  schedule:
+    # 06:17 Asia/Taipei / 07:17 Asia/Tokyo; GitHub may delay schedules.
+    - cron: '17 22 * * *'
+permissions:
+  contents: read
+concurrency:
+  group: suwa-pages
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    outputs:
+      news-outcome: ${{ steps.news.outcome }}
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+          persist-credentials: false
+      - name: Verify historical data and news behavior
+        run: |
+          python3 tools/build-data.py
+          git diff --exit-code -- data/winters.json data/events.json data/coverage.json dist/data.js
+          node --test tests/core.test.cjs
+          python3 -B tests/news.test.py
+          python3 -B tests/publish-news.test.py
+      - name: Refresh news, preserving the last deployed snapshot on failure
+        id: news
+        continue-on-error: true
+        run: python3 -B tools/publish-news.py
+      - name: Upload only the website
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: dist
+          retention-days: 1
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy beta
+        id: deployment
+        uses: actions/deploy-pages@v4
+      - name: Report upstream news failure after publishing the labeled fallback
+        if: needs.build.outputs.news-outcome != 'success'
+        run: |
+          echo '::error::RSS refresh failed or was incomplete. The site was deployed with an explicit fallback/partial status. Check the news timestamp and retry the workflow.'
+          exit 1

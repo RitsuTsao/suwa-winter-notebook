@@ -1,6 +1,6 @@
 # Research, sources, and interpretation
 
-Documentation version **0.3.1** · Historical data snapshot **2026-09-20**. Initial source work began on 2026-09-16. Creator: **Ritsu**; AI research and implementation contributions are disclosed in [CREDITS.md](CREDITS.md).
+Documentation version **0.4.0-beta.1** · Historical data snapshot **2026-09-20**. Initial source work began on 2026-09-16. Creator: **Ritsu**; AI research and implementation contributions are disclosed in [CREDITS.md](CREDITS.md).
 
 This document reports the retained source-review record. Repository preparation did not conduct a new historical search or independently repeat every earlier source check.
 

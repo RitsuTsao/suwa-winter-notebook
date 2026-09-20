@@ -2,6 +2,15 @@
 
 Project creator: **Ritsu**. AI contributors and verified or reported model versions: [CREDITS.md](CREDITS.md).
 
+## 0.4.0-beta.1 — 2026-09-20
+
+- Publish the first public beta through GitHub Pages, after Ritsu explicitly approved public repository visibility.
+- Add a daily/manual/main-push RSS refresh-and-deploy workflow; publish only `dist/` as the website.
+- Read same-origin JSON on static hosting, with manual snapshot reload, 36-hour staleness notice, and explicit failed-refresh fallback.
+- Recover the previous deployed snapshot before fetching RSS; preserve it on failure and clear it for a valid empty result. No daily news commits or permanent news archive.
+- Show beta version and human/AI attribution on the site. Preserve historical records, statistics, illustrations, and offline use.
+- Add deployment failure/empty-result tests and an operations guide. New historical research, prediction, animation, and AI APIs remain deferred.
+
 ## 0.3.1 — 2026-09-20
 
 First repository baseline, prepared for private GitHub backup.
